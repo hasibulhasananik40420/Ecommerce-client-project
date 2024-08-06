@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className=" bg-white border border-b">
       <Container>
         <div className="flex justify-between items-center h-[12vh]">
-          <div>logo</div>
+          <div className="text-[18px]  font-semibold">Anik mart</div>
 
           <div>
             <div className="relative text-gray-600">

@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <Container>
          <div
-    className="border rounded md:w-[300px] w-full h-full bg-white relative group overflow-hidden"
+    className="mt-10 border rounded md:w-[300px] w-full h-full bg-white relative group overflow-hidden"
     style={{ boxShadow: "rgba(0, 0, 0, 0.05) 0px 15px 64px 0px" }}
   >
     <div className="px-[30px] mt-2 w-full">
