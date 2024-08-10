@@ -51,6 +51,226 @@ const categoryData = [
       link: "/all-products",
       icon: "image"
     },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
+    {
+      name: "Baby Items 3",
+      link: "/all-products",
+      icon: "image"
+    },
   ];
   
   export default categoryData;

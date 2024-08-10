@@ -232,6 +232,7 @@ const ProductsDetails = () => {
                   +
                 </button>
               </div>
+              
               <button className=" bg-blue-500 text-white w-full py-2 font-bold rounded-sm hover:text-blue-500 outline outline-blue-500 hover:bg-white outline-1">
                 PLACE ORDER
               </button>

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import watch from "@/assets/watch.png";
+import careve from "@/assets/products/careve.jpg";
 import Container from "@/components/shared/Container";
 import Link from "next/link";
 
-const Discount = () => {
+const BeautyDiscount = () => {
   return (
     <Container>
       <div className="lg:h-[350px] bg-[#E6EBEF] rounded-lg lg:flex justify-between items-center px-12 py-10 md:py-10 lg:py-0 lg:mt-24 mt-10">
@@ -13,10 +13,7 @@ const Discount = () => {
           </p>
 
           <h1 className=" font-bold lg:text-[45px] md:text-[55px] text-[20px] lg:leading-[50px] md:leading-[90px] leading-9">
-            Discounts 20% On All
-          </h1>
-          <h1 className=" font-bold lg:text-[45px] md:text-[55px] text-[20px] lg:leading-[50px] md:leading-[70px] leading-9">
-            Watch
+            Beauty & <br /> Personal Care
           </h1>
 
           <Link href="./products/1" className="w-[170px] mt-8">
@@ -26,10 +23,10 @@ const Discount = () => {
           </Link>
         </div>
 
-        <div className="lg:w-[450px] w-full h-full mt-5 md:mt-16 lg:mt-5">
+        <div className="mt-5 md:mt-16 lg:mt-5 ">
           <Image
-            className="w-full lg:h-[300px] h-full object-contain"
-            src={watch}
+            className="w-full lg:h-[300px] h-full object-contain "
+            src={careve}
             alt="watch image"
             placeholder="blur"
           />
@@ -39,4 +36,4 @@ const Discount = () => {
   );
 };
 
-export default Discount;
+export default BeautyDiscount;

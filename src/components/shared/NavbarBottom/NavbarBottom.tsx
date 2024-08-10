@@ -4,9 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Container from "../Container";
-import categoryData from "./categoryData";
 import { navigationData } from "./navigationData";
-
+import Categoric from "./Categoric";
 
 const NavbarBottom = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
@@ -17,7 +16,7 @@ const NavbarBottom = () => {
   };
 
   return (
-    <div className="bg-[#ffbb38] ">
+    <div className="bg-[#ffbb38]  hidden lg:block">
       <Container>
         <div className={`flex justify-between gap-4 items-center relative`}>
           <div className="flex gap-4 items-center ">
@@ -37,7 +36,13 @@ const NavbarBottom = () => {
                 </div>
               </button>
 
-              <div
+              <Categoric
+                isOpen={isOpen}
+                
+                setIsOpen={false}
+              />
+
+              {/* <div
                 className={`w-[270px] !z-[999] shadow-sm absolute left-0 top-[53px] overflow-hidden transition-all duration-500 ease-in-out ${
                   isOpen ? "max-h-screen" : "max-h-0"
                 }`}
@@ -75,11 +80,11 @@ const NavbarBottom = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div>
               <ul className=" flex xl:space-x-10 space-x-5 ">
-                {navigationData.map((navItem, index:any) => (
+                {navigationData.map((navItem, index: any) => (
                   <li
                     key={index}
                     className={`w-full ${navItem.subMenu && "relative"}`}

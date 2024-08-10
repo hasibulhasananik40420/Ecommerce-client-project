@@ -76,7 +76,7 @@ const CheckoutPage = () => {
                         First name <span className="text-red-500">*</span>
                       </label>
                       <input
-                        className="border rounded-sm border-1 outline-none p-2 pl-6 mt-2"
+                        className="border rounded-sm border-1 outline-none p-2 pl-6 mt-2 w-full"
                         type="text"
                         id="f_name"
                       />
@@ -141,6 +141,7 @@ const CheckoutPage = () => {
                   </div>
 
                   <div className="flex flex-col gap-4 mt-8">
+                    
                     <label htmlFor="phone">
                     Phone <span className="text-red-500">*</span>{" "}
                     </label>
@@ -163,7 +164,7 @@ const CheckoutPage = () => {
                 </form>
               </div>
               <div className="border border-blue-500 rounded-md">
-                <div className="p-8 flex flex-col justify-between h-full">
+                <div className="lg:p-8 p-4 flex flex-col justify-between h-full w-full overflow-hidden">
                   <div>
                     <h2>YOUR ORDER</h2>
                     <div className="mt-4 flex justify-between font-semibold border-b pb-4">
@@ -175,12 +176,12 @@ const CheckoutPage = () => {
                       {products.map((product) => (
                         <div key={product.id} className=" flex justify-between">
                           <div className="flex">
-                            <p className="pr-8">
+                            <p className="pr-8 border w-44">
                               {product.name} x <span>{product.quantity}</span>
                             </p>
                           </div>
 
-                          <p className="w-[110px] font-semibold">
+                          <p className="lg:w-[110px] font-semibold">
                             ${(product.price * product.quantity).toFixed(2)}
                             <span className="hidden">
                               {subTotal.push({
