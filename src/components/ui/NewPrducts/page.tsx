@@ -1,5 +1,13 @@
 import Image from "next/image";
 import product from "@/assets/product-img-2.jpg";
+import medjoolKhejur from "@/assets/products/Medjool-Khejur-_Dates_-Premium-Size-Price-in-Dhaka-uttara.jpg1.jpg";
+import medjoolKhejur2 from "@/assets/products/mango-1.jpg";
+import medjoolKhejur3 from "@/assets/products/mango-3.jpg";
+import medjoolKhejur4 from "@/assets/products/download (3).jpg";
+import medjoolKhejur5 from "@/assets/products/download.jpg";
+import medjoolKhejur6 from "@/assets/products/images (1).jpg";
+import medjoolKhejur7 from "@/assets/products/images (2).jpg";
+import medjoolKhejur8 from "@/assets/products/images (4).jpg";
 import { CiHeart, CiShoppingCart } from "react-icons/ci";
 import { Stars } from "@/utils/Stars";
 import { HiOutlineViewfinderCircle } from "react-icons/hi2";
@@ -10,13 +18,13 @@ import Link from "next/link";
 const products = [
   {
     id: 1,
-    name: "Xoggle aute et pariatur adipisicing nostrud",
+    name: "Medjool Khejur Dates Premium Size Price in Dhaka Uttara",
     price: 699.99,
     oldPrice: 949.99,
     availableProducts: 20,
-    image: product,
+    image: medjoolKhejur,
     rating: 3,
-    slug: "xoggle-aute-et-pariatur-adipisicing-nostrud",
+    slug: "medjool-khejur-dates-premium-size-price-in-dhaka-uttara",
     progress: 50,
   },
   {
@@ -26,7 +34,7 @@ const products = [
     price: 499.99,
     oldPrice: 799.99,
     availableProducts: 10,
-    image: product,
+    image: medjoolKhejur2,
     rating: 4,
     progress: 30,
   },
@@ -37,7 +45,7 @@ const products = [
     price: 299.99,
     oldPrice: 499.99,
     availableProducts: 15,
-    image: product,
+    image: medjoolKhejur3,
     rating: 5,
     progress: 70,
   },
@@ -48,13 +56,14 @@ const products = [
     price: 399.99,
     oldPrice: 599.99,
     availableProducts: 25,
-    image: product,
+    image: medjoolKhejur4,
     rating: 2,
     progress: 90,
   },
 ];
 
-const NewProducts = () => {
+const 
+NewProducts = () => {
   return (
     <Container>
       <div className="mt-10 lg:mt-24">
@@ -85,9 +94,13 @@ const NewProducts = () => {
             </div>
             <Link
               href={`./products/${product.slug}`}
-              className="w-full h-[250px] relative cursor-pointer"
+              className="w-full  relative cursor-pointer"
             >
-              <Image src={product.image} alt={product.name} />
+              <Image
+                src={product.image}
+                className="h-[250px] w-full px-1"
+                alt={product.name}
+              />
             </Link>
             <div className="px-[15px] pb-[30px] relative">
               <div className="absolute w-full h-10 px-[15px] left-0 top-44 group-hover:top-[85px] transition-all duration-300 ease-in-out">

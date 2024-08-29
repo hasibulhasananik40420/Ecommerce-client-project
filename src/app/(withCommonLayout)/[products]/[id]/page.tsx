@@ -70,6 +70,7 @@ const ProductsDetails = () => {
   return (
     <Container>
     <section className="mx-auto p-4">
+    <span>adsf</span>
       <div className="md:flex gap-6">
         <div className="md:w-1/2 w-full">
           <div>
