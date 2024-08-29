@@ -4,7 +4,7 @@ import SliderCard from "./SliderCard"
 const HomePageSlider = () => {
   return (
     <Container>
-      <div className="mt-16">
+      <div className="lg:mt-16 mt-0 ">
       <SliderCard/>
       </div>
     </Container>

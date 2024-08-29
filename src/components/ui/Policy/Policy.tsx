@@ -7,8 +7,8 @@ import Container from '@/components/shared/Container'
 const Policy = () => {
   return (
       <Container>
-        <div className="bg-white md:shadow rounded-lg lg:h-[150px] md:h-[250px] h-full mt-20 md:border grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-5 px-5">
-              <div className="flex justify-center items-center gap-5">
+        <div className="bg-white md:shadow rounded-lg lg:h-[150px] md:h-[250px] h-full mt-20 md:border grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:justify-items-center gap-5 lg:px-5 px-0">
+              <div className="flex items-center gap-5">
                  <div>
                      <Image className="w-[70px] h-[70px]" src={shipping} alt='shipping'/>
                  </div>
@@ -18,7 +18,7 @@ const Policy = () => {
                   </div>
               </div>
 
-              <div className="flex justify-center items-center gap-5">
+              <div className="flex items-center gap-5">
                  <div>
                      <Image className="w-[60px] h-[60px]" src={free} alt='shipping'/>
                  </div>
@@ -28,7 +28,7 @@ const Policy = () => {
                   </div>
               </div>
 
-              <div className="flex justify-center items-center gap-5">
+              <div className="flex items-center gap-5">
                  <div>
                      <Image className="w-[60px] h-[60px]" src={Payment} alt='shipping'/>
                  </div>
@@ -38,7 +38,7 @@ const Policy = () => {
                   </div>
               </div>
 
-              <div className="flex justify-center items-center gap-5">
+              <div className="flex items-center gap-5">
                  <div>
                      <Image className="w-[60px] h-[60px]" src={Quality} alt='shipping'/>
                  </div>
