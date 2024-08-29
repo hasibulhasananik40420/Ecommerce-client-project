@@ -5,7 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Container from "../Container";
 import { navigationData } from "./navigationData";
-import Categoric from "./Categoric";
+import categoryData from "./categoryData";
+
 
 const NavbarBottom = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
@@ -36,13 +37,13 @@ const NavbarBottom = () => {
                 </div>
               </button>
 
-              <Categoric
+              {/* <Categoric
                 isOpen={isOpen}
                 
                 setIsOpen={false}
-              />
+              /> */}
 
-              {/* <div
+              <div
                 className={`w-[270px] !z-[999] shadow-sm absolute left-0 top-[53px] overflow-hidden transition-all duration-500 ease-in-out ${
                   isOpen ? "max-h-screen" : "max-h-0"
                 }`}
@@ -80,7 +81,7 @@ const NavbarBottom = () => {
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
             </div>
             <div>
               <ul className=" flex xl:space-x-10 space-x-5 ">

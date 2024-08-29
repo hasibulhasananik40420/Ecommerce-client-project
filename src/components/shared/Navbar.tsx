@@ -6,7 +6,6 @@ import { CiSearch } from "react-icons/ci";
 import Container from "./Container";
 import { LuUsers } from "react-icons/lu";
 import { FiChevronsDown } from "react-icons/fi";
-import Categoric from "./NavbarBottom/Categoric";
 import {
   FaHome,
   FaSearch,
@@ -15,6 +14,7 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { useState } from "react";
+import categoryData from "./NavbarBottom/categoryData";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,7 +77,47 @@ const Navbar = () => {
             </div>
           </button>
 
-          <Categoric isOpen={isOpen} setIsOpen={false} />
+          <>
+            <div
+              className={`w-[270px] h-[93vh] !z-[999] shadow-sm absolute left-0 top-[53px] overflow-hidden transition-all duration-500 ease-in-out ${
+                isOpen ? "max-h-screen" : "max-h-0"
+              }`}
+            >
+              <ul
+                className={`transition-transform duration-500 ease-in-out ${
+                  isOpen
+                    ? "transform translate-y-0"
+                    : "transform -translate-y-full"
+                }`}
+              >
+                {categoryData.map((category, index) => (
+                  <li
+                    key={category.name}
+                    style={{
+                      transitionDelay: `${
+                        isOpen
+                          ? index * 0.001
+                          : (categoryData.length - index - 1) * 0.001
+                      }s`,
+                    }}
+                  >
+                    <Link
+                      onClick={() => setIsOpen(false)}
+                      href={category.link}
+                      className="flex justify-between items-center px-5 h-10 bg-white transition-all duration-300 ease-in-out cursor-pointer hover:text-white hover:bg-orange-500"
+                    >
+                      <div className="flex items-center space-x-6">
+                        <span>{category.icon}</span>
+                        <span className="text-xs font-400">
+                          {category.name}
+                        </span>
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
 
           <div className="relative text-gray-600 w-full">
             <input
@@ -132,7 +172,7 @@ const Navbar = () => {
               </span>
             </Link>
             <Link
-            href="./cart"
+              href="./cart"
               className="flex flex-col items-center cursor-pointer"
               onClick={() => setActive("cart")}
             >
@@ -150,7 +190,7 @@ const Navbar = () => {
               </span>
             </Link>
             <Link
-             href="./cart"
+              href="./cart"
               className="flex flex-col items-center cursor-pointer"
               onClick={() => setActive("favorite")}
             >
@@ -167,8 +207,8 @@ const Navbar = () => {
                 Favorite
               </span>
             </Link>
-            <Link 
-             href="./cart"
+            <Link
+              href="./cart"
               className="flex flex-col items-center cursor-pointer"
               onClick={() => setActive("account")}
             >

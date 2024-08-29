@@ -1,13 +1,9 @@
 import Image from "next/image";
-import product from "@/assets/product-img-2.jpg";
-import medjoolKhejur from "@/assets/products/Medjool-Khejur-_Dates_-Premium-Size-Price-in-Dhaka-uttara.jpg1.jpg";
+
+import medjoolKhejur from "@/assets/products/download (2).jpg";
 import medjoolKhejur2 from "@/assets/products/download (1).jpg";
 import medjoolKhejur3 from "@/assets/products/download (2).jpg";
 import medjoolKhejur4 from "@/assets/products/download (3).jpg";
-import medjoolKhejur5 from "@/assets/products/download.jpg";
-import medjoolKhejur6 from "@/assets/products/images (1).jpg";
-import medjoolKhejur7 from "@/assets/products/images (2).jpg";
-import medjoolKhejur8 from "@/assets/products/images (4).jpg";
 import { CiHeart, CiShoppingCart } from "react-icons/ci";
 import { Stars } from "@/utils/Stars";
 import { HiOutlineViewfinderCircle } from "react-icons/hi2";
