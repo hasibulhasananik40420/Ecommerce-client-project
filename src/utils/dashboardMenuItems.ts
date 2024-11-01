@@ -1,7 +1,6 @@
 
 //icons
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import GroupIcon from "@mui/icons-material/Dashboard";
 import CategoryIcon from '@mui/icons-material/Category';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
 import GroupRemoveIcon from '@mui/icons-material/GroupRemove';
